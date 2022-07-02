@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&family=Square+Peg&display=swap");
+* {
+  margin: 2px;
+  padding: 0;
+}
+
+.sidebar {
+  font-size: x-large;
+  height: 100vh;
+  font-family: Noto serif;
+  border-color: blue;
+  background-color: rgb(192, 181, 181);
+  width: 17vw;
+}
+.sidebar nav {
+  padding: 14px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding-top: 50px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(0, 4, 7);
+}
+.main {
+  background-color: rgb(247, 247, 242);
+  width: 86vw;
+  display: flex;
+}
+.container {
+  display: flex;
+}
+.li {
+  padding-top: 6px;
+}
+.infocon {
+  background-color: rgb(211, 248, 248);
+  height: 75vh;
+  width: 70vw;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  font-family: Square Peg;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.devpic {
+  size: 430px;
+}
+.d {
+  color: rgb(218, 37, 76);
+  padding: 10px;
+  border-radius: 20%;
+  background-color: rgb(253, 253, 253);
+  cursor: pointer;
+}
+.d:hover {
+  background-color: rgb(49, 94, 179);
+  color: white;
+}
+.c {
+  color: blueviolet;
+  padding: 10px;
+  border-radius: 20%;
+  background-color: rgb(253, 253, 253);
+  cursor: pointer;
+}
+.c:hover {
+  background-color: rgb(40, 88, 151);
+  color: white;
+}
